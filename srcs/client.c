@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   client.c                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: amouflet <amouflet@student.42.fr>          +#+  +:+       +#+        */
+/*   By: malfwa <malfwa@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/08 10:45:52 by amouflet          #+#    #+#             */
-/*   Updated: 2023/01/10 21:08:51 by amouflet         ###   ########.fr       */
+/*   Updated: 2023/03/28 16:03:01 by malfwa           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,6 @@ int	g_open;
 void	handler(int num)
 {
 	(void)num;
-	usleep(50);
 	g_open = GO;
 }
 
